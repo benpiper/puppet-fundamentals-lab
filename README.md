@@ -1,3 +1,4 @@
+<h1>Vagrantfile for the Puppet Fundamentals for System Administrators course</h1>
 
 <h2>Requirements</h2>
 VirtualBox and Vagrant
@@ -14,7 +15,7 @@ http://benpiper.com/wp-content/uploads/2014/12/centos65.box.torrent
 `vagrant box add centos65-base centos65.box`
 
 4. Add the Ubuntu 14.04 64-bit box: 
-vagrant box add https://vagrantcloud.com/ubuntu/boxes/trusty64
+`vagrant box add https://vagrantcloud.com/ubuntu/boxes/trusty64`
 
 5. Launch the VMs: 
 `vagrant up`
