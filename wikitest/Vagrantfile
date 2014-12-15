@@ -1,0 +1,25 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# See README.md for details
+
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+
+  config.vm.box = "ubuntu/trusty64"
+  
+  config.vm.define "wikitest" do |wikitest|
+  
+    wikitest.vm.hostname = "wikitest"
+	
+    wikitest.vm.network "private_network", ip: "172.31.0.203"
+
+  end
+
+  config.vm.provider :virtualbox do |p|
+
+    p.customize ["modifyvm", :id, "--memory", 2048]
+  end
+  
+end
