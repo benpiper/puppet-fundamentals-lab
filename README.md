@@ -3,19 +3,28 @@
 <h2>Requirements</h2>
 VirtualBox and Vagrant
 
-<h2>Instructions</h2>
+<h2>Lab Setup Instructions</h2>
 
-1. `git clone` or download the directories to whatever parent directory you like and `cd` into the parent.
+1. `git clone` or download the directories to the `puppet-fundamentals-lab` directory and `cd` to it.
 
-2. Download the CentOS 6.5 Vagrant box to the parent directory: 
-https://www.dropbox.com/s/206lcenz3o45c79/centos65.box?dl=1 or 
-http://benpiper.com/wp-content/uploads/2014/12/centos65.box.torrent
+2. Download the CentOS 6.5 Vagrant box to the `puppet-fundamentals-lab` directory: 
+https://www.dropbox.com/s/206lcenz3o45c79/centos65.box?dl=1<br> or 
+http://benpiper.com/wp-content/uploads/2014/12/centos65.box.torrent<br?
+Ensure the file is saved as `centos65.box`.
 
 3. Add the CentOS 6.5 box you just downloaded:
 `vagrant box add centos65-base centos65.box`
 
-4. Add the Ubuntu 14.04 64-bit box from the Vagrant cloud:
-`vagrant box add https://vagrantcloud.com/ubuntu/boxes/trusty64`
+4. Download the Ubuntu 14.04 Vagrant box to the same directory:
+http://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box
 
-5. `cd` into each directory and launch the VMs: 
+5. Add the Ubuntu box:
+`vagrant box add trusty64 trusty-server-cloudimg-amd64-vagrant-disk1.box`
+
+<h2>Puppet Master Instructions</h2>
+
+1. `cd` into the `puppetmaster` subdirectory and launch the VM:
 `vagrant up`
+
+2. Once the machine is booted, SSH into it:
+`vagrant ssh`
