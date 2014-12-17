@@ -8,8 +8,8 @@ VirtualBox and Vagrant
 1. `git clone` or download the directories to the `puppet-fundamentals-lab` directory and `cd` to it.
 
 2. Download the CentOS 6.5 Vagrant box to the `puppet-fundamentals-lab` directory: 
-https://www.dropbox.com/s/206lcenz3o45c79/centos65.box?dl=1<br> or 
-http://benpiper.com/wp-content/uploads/2014/12/centos65.box.torrent<br?
+https://www.dropbox.com/s/206lcenz3o45c79/centos65.box?dl=1 or<br> 
+http://benpiper.com/wp-content/uploads/2014/12/centos65.box.torrent<br>
 Ensure the file is saved as `centos65.box`.
 
 3. Add the CentOS 6.5 box you just downloaded:
