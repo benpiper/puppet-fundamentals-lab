@@ -1,11 +1,11 @@
-<h1>Vagrantfile for the Puppet Fundamentals for System Administrators course</h1>
+<h1>Vagrantfiles for the Puppet Fundamentals for System Administrators course</h1>
 
 <h2>Requirements</h2>
 VirtualBox and Vagrant
 
 <h2>Lab Setup Instructions</h2>
 
-1. `git clone` or download the directories to the `puppet-fundamentals-lab` directory and `cd` to it.
+1. `git clone` this repository or download `master.zip` and unzip to the `puppet-fundamentals-lab` directory and `cd` to it.
 
 2. Download the CentOS 6.5 Vagrant box to the `puppet-fundamentals-lab` directory: 
 https://www.dropbox.com/s/206lcenz3o45c79/centos65.box?dl=1 or<br> 
@@ -21,7 +21,7 @@ http://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd
 5. Add the Ubuntu box:
 `vagrant box add trusty64 trusty-server-cloudimg-amd64-vagrant-disk1.box`
 
-<h2>Puppet Master Instructions</h2>
+<h2>Booting the Puppet Master Server</h2>
 
 1. `cd` into the `puppetmaster` subdirectory and launch the VM:
 `vagrant up`
