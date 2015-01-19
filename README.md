@@ -33,3 +33,6 @@ http://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd
 
 2. Once the machine is booted, SSH into it:
 `vagrant ssh`
+
+<h2>Windows 2008 R2 ISO</h2>
+http://www.microsoft.com/en-us/download/details.aspx?id=11093
