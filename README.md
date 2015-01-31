@@ -2,7 +2,9 @@
 
 <h2>Vagrant Box Downloads for VirtualBox</h2>
 CentOS 6.5:
+
 Dropbox: https://www.dropbox.com/s/206lcenz3o45c79/centos65.box?dl=1
+
 Torrent (experimental): http://benpiper.github.io/course-files/puppet-system-administrators-fundamentals/centos65.box.torrent
 
 Ubuntu 14.04 LTS: http://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box
