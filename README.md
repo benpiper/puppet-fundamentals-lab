@@ -12,7 +12,7 @@ Torrent (experimental): http://benpiper.github.io/course-files/puppet-system-adm
 <h2>Requirements</h2>
 VirtualBox and Vagrant
 
-Note for RHEL/CentOS Linux users: You may need to run the following commands before installing VirtualBox:
+Note for RHEL/CentOS Linux users: You may need to run the following commands after installing VirtualBox:
 
 `sudo yum -y install kernel-devel`<br>
 `sudo /etc/init.d/vboxdrv setup`
