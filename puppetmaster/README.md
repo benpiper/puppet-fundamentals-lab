@@ -1,6 +1,8 @@
 If you receive an error when installing Passenger, follow the instructions below immediately AFTER 3:33 into the "Installing Apache and Passenger" clip of the "Installing and Configuring the Puppet Master" module:
 
-1. Install the Ruby Version Manager (RVM): `\curl -sSL https://get.rvm.io | bash`
+1. Get into a root shell: `sudo su`
+
+2. Install the Ruby Version Manager (RVM): `\curl -sSL https://get.rvm.io | bash`
 
 2. Restart root and vagrant shells:  `exit` then `exit` and then `vagrant ssh`
 
