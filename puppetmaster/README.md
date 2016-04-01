@@ -10,7 +10,7 @@ If you receive an error when installing Passenger, follow the instructions below
 
 4. Install Ruby using RVM: `rvm install ruby`
 
-5. Install the Passenger gem: `gem install passenger`
+5. Install the Passenger gem: `gem install rack passenger`
 
 6. Install the Passenger Apache module: `passenger-install-apache2-module`
 
