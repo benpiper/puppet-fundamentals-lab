@@ -4,6 +4,8 @@
 <b>CentOS 6.5</b>:
 
 Torrent (recommended): http://benpiper.github.io/course-files/puppet-system-administrators-fundamentals/centos65.box.torrent
+<br>
+<i>NB: If you download the torrent, please seed it for at least a couple of days so others can download the image faster.</i>
 
 Dropbox: https://www.dropbox.com/s/206lcenz3o45c79/centos65.box?dl=1
 
