@@ -50,3 +50,7 @@ http://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd
 
 <h2>Windows 2008 R2 ISO</h2>
 http://www.microsoft.com/en-us/download/details.aspx?id=11093
+
+<h2>Community Support</h2>
+
+Visit https://benpiper.com/community/puppet-system-administrators-fundamentals/ for support resources.
